@@ -1,0 +1,52 @@
+.sobre-container  {
+    width: 80.0625rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -22px;
+}
+
+.sobre-titulo {
+    width: 1199px;
+    height: 99px;
+    text-align: center; 
+    margin-top: 60px;
+    font-size: 3.1875rem;
+    font-family: 'Pacifico';
+    color: #8D0606;
+    line-height: 5.625rem;
+    font-style: normal;
+}
+
+.sobre-descricao {
+    width: 62.0625rem;
+    height: 10.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.75rem;
+    line-height: 2.0625rem;
+    text-align: center;
+    color: #8C8888;
+}
+
+@media screen and (max-width: 85.5rem) {
+    .sobre-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sobre-titulo {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    .sobre-descricao {
+        width: 100%;
+        height: 100%;
+    }
+}

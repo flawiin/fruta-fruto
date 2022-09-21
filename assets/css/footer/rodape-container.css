@@ -1,0 +1,27 @@
+.rodape-container {
+    width: 80.0625rem;
+    height: 6.75rem;
+    background-color: #c4c4c4;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 29px;
+}
+
+.rodape-contato {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+
+.rodape-link {
+    width: 3.625rem;
+    height: 3.5625rem;
+    background-color: #8d0606;
+    margin-left: 12px;
+}

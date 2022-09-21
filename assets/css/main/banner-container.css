@@ -1,0 +1,40 @@
+.banner-container {
+    display: flex;
+    align-items: center;
+    width: 80.0625rem;
+    height: 29.25rem;
+    margin: 0 auto;
+    background-image: url(/assets/img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banner-titulo {
+    width: 1199px;
+    height: 168px;
+    font-size: 81px;
+    font-family: 'Pacifico';
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 8.875rem;
+    text-shadow: 0 4px 4px rgb(0, 0, 0, 0.75);
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 85.5rem) {
+    .banner-container {
+        width: 100%;
+    }
+
+    .banner-titulo {
+        width: 100%;
+        height: 100%;
+        font-size: 71px;
+    }
+       
+}
+
